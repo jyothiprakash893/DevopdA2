@@ -1,10 +1,15 @@
 package com.lbrce;
 
 import java.util.Scanner;
+import java.io.File;
+import java.io.File;
 
 public class CurrencyConverter {
     public static void main(String[] args) {
         // Exchange rates: Modify these as per the current rates
+    	
+    	File file = new File("C:\\Users\\DELL\\Desktop\\Currency.txt");
+
         double usdToInr = 82.0;
         double eurToInr = 89.0;
         double gbpToInr = 101.0;
